@@ -31,4 +31,26 @@ You can find SQL queries and generated sample data containing the features speci
 
 In order to provide the connection between Java and PostgreSQL, the PostgreSQL [jar](https://github.com/uguraltindal/Blood-Donation-Management-System/blob/main/postgresql-42.2.18.jar) file given above must be added to the code environment. [Here](https://www.cs.utexas.edu/~scottm/cs324e/Assignments/AddJarToEclipse.htm) you can see how to add the jar file to the code environment.
 
-After that, you must enter your ID and password that you determined during PostgreSQL installations in java as follows.
+After that, you must enter your ID and password that you determined during PostgreSQL installations in Java as follows.
+
+<img src="images/dbconnection.JPG" width ="1200" height = "150">
+
+### Examples
+
+**Database Tables**
+
+<img src="images/dbexample.JPG">
+<img src="images/dbexample2.JPG">
+
+**Reward System with using Trigger in Query**
+
+A reward system is designed for those who donate blood, depending on the number of donations. For example, a plaque award is given to a person who donates 45 units of blood. This warning is displayed to the user on the screen when any donor reaches certain numbers in the trigger, as requested in the assignment.
+
+<img src="images/dbtrigger2.JPG">
+
+**User Interface**
+
+<img src="images/userinterface.JPG">
+
+
+
